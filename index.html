@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url("./image/WhatsApp Image 2025-05-26 at 12.02.37 PM (1).jpeg");
+  background-image: url("./image/leve.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -124,7 +124,8 @@
       align-items: center;
       cursor: pointer;
       transition: all 0.3s ease;
-      box-shadow: 0 5px 15px rgb(139, 9, 0),
+      box-shadow: 0 0 20px #00eaff, 0 0 40px #00eaff, 0 0 60px #00aaff,
+
                  inset 0 -2px 5px rgba(0,0,0,0.2);
       z-index: 10;
     }
@@ -171,14 +172,20 @@
     }
 
     .contenido  h2{
-      color: white;
-      font-size: 2.5em;
-      margin-bottom: 30px;
-      text-align: center;
-      font-family: 'Brush Script MT', cursive;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-      position: relative;
-      z-index: 1;
+     color: white;
+font-size: 2.5em;
+margin-bottom: 30px;
+text-align: center;
+font-family: 'Poppins', sans-serif; /* Quita la cursiva y usa una fuente moderna */
+text-shadow:
+  0 0 5px #ffffff,
+  0 0 10px #ffffff,
+  0 0 20px #ffffff,
+  0 0 40px #00eaff, /* toque de brillo azulado */
+  0 0 80px #00eaff;
+position: relative;
+z-index: 1;
+
     }
 
     .contenido p {
@@ -216,14 +223,30 @@
     }
 
     h3 {
-            color:white ; /* Color rojo */
-            font-family: 'Arial', sans-serif; /* Fuente bonita */
-            letter-spacing: 5px; /* Separación entre letras */
-            text-transform: uppercase; /* Letras en mayúsculas */
-            position: absolute; /* Posición absoluta para control total */
-            top: 10px; /* Distancia desde la parte superior */
-            left: 50%; /* Centra horizontalmente */
-            transform: translateX(-50%); /* Ajusta el centrado horizontal */
+           color: #ffffff;
+font-family: 'Orbitron', sans-serif;
+letter-spacing: 4px;
+text-transform: uppercase;
+text-shadow:
+  0 0 5px #00eaff,
+  0 0 10px #00eaff,
+  0 0 20px #00eaff,
+  0 0 40px #00eaff;
+position: absolute;
+top: 10px;
+left: 50%;
+transform: translateX(-50%);
+animation: bluePulse 2s ease-in-out infinite alternate;
+
+@keyframes bluePulse {
+  from {
+    text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff, 0 0 40px #00eaff;
+  }
+  to {
+    text-shadow: 0 0 20px #00eaff, 0 0 40px #00eaff, 0 0 80px #00eaff;
+  }
+}
+
         }
 
         .contenedor p {
@@ -261,56 +284,69 @@
     <div class="carta-contenedor">
       <div class="carta">
         <div class="frente">
-          <img src="./image/WhatsApp Image 2025-05-26 at 11.43.30 AM.jpeg" alt="Imagen Principal" class="imagen-central">
+          <img src="./image/leve-2.jpg" alt="Imagen Principal" class="imagen-central">
           
-          <h3>TATIANA</h3>
+          <h3>ALEJANDRA</h3>
           <div class="overlay"></div>
           <div class="patron-decorativo" id="patron-frente"></div>
-        <div class="corazon">❤️</div>
+        <div class="corazon">💙</div>
         </div>
         <div class="contenido">
           <div class="patron-contenido" id="patron-contenido"></div>
-          <h2>Mi dulce primavera </h2>
+          <h2>FELIZ CUMPLEAÑOS MI CHIQUITA BRAVA </h2>
           <div class="contenedor">
-          <p>En cada palabra que escribo, encuentro un pedazo de mi corazón que anhela estar junto a ti. Cada letra es un suspiro, cada frase un latido que resuena con tu nombre.</p>
+          <p>Hoy el cielo despierta con un brillo distinto,
+porque el universo recuerda el día en que naciste,
+cuando una chispa de luz descendió a la tierra
+para llenar de esperanza cada rincón donde habita tu nombre.</p>
 
-          <p>Cuando el día parezca gris y las fuerzas empiecen a flaquear, recuerda que dentro de ti vive un sol que nunca deja de brillar. Eres más fuerte de lo que crees, más valiente de lo que imaginas y más capaz de lo que a veces te permites sentir. La vida, con todos sus altos y bajos, es solo un lienzo esperando que lo pintes con tus colores.</p>
+          <p>El tiempo, que nunca se detiene,
+hoy hace una pausa para contemplarte,
+porque no todos los días florece un alma
+tan llena de amor, fuerza y belleza verdadera.</p>
 
-          <p>Sonríe, incluso cuando duela. Cada sonrisa es un acto de rebeldía contra la tristeza que intenta quedarse. Ámate sin medida. Tú mereces tu propio amor más que nadie en este mundo. Sigue soñando, aunque el camino se vuelva largo. Las metas más hermosas florecen en los corazones que no se rinden. Respira hondo, perdona y suelta. A veces, lo mejor que puedes hacer por ti es dejar de cargar lo que ya no te deja volar.</p>
+          <p>Eres poema en movimiento,
+una melodía escrita en la piel del viento,
+una historia que aún no termina,
+pero que ya deja huellas en los corazones que te conocen.</p>
 
-          <p>Hay algo que siempre he pensado, y es que tú no eres una persona cualquiera. Tienes algo diferente, algo que no sé cómo explicar del todo, pero que se nota desde el primer momento. No hablo solo de lo linda que eres por fuera, que lo eres, sino de todo eso que llevas dentro y que te hace única.</p>
+          <p>Que la vida te abrace con calma,
+que cada sueño que guardas se atreva a nacer,
+y que la felicidad no sea solo un instante,
+sino un hogar donde tu alma siempre quiera volver.</p>
 
-          <p>A veces te veo, y pienso: qué forma tan tuya de estar en el mundo. Con esa mezcla de dulzura y carácter, de ternura y fuerza. No te andas con rodeos, no finges, no te callas lo que sientes… y eso me parece admirable. En un mundo donde muchos se esconden detrás de sonrisas vacías, tú decides ser real. Y eso vale más que mil palabras bonitas.</p>
+          <p>Que el sol te mire con ternura,
+que la luna te susurre promesas,
+y que el destino te regale caminos
+donde solo existan risas, paz y amor verdadero.</p>
 
-          <p>Sí, te enojas rápido. Lo sé. Pero incluso eso tiene algo especial. Porque en tu enojo hay pasión, hay verdad. No es por capricho, es porque sientes profundo. Porque te importan las cosas. Y eso no es debilidad, al contrario, habla de tu fuego interno, de ese corazón que no se apaga fácil.</p>
+          <p>Porque celebrar tu vida
+es celebrar la magia de existir,
+es agradecerle al tiempo por permitirnos coincidir
+con alguien que convierte lo cotidiano en poesía.</p>
 
-          <p>A mí, personalmente, me parece increíble cómo eres. No perfecta, pero auténtica. No siempre tranquila, pero siempre real. Y en estos tiempos, eso no se encuentra tan fácil. No te lo digo por halagarte, ni porque busque algo a cambio… te lo digo porque lo creo, porque lo veo, y porque sé que a veces uno necesita escuchar lo que vale, aunque no lo pida.</p>
+          <p>Así que sopla tus velas,
+pero deja que el viento también sople contigo,
+porque el deseo que hoy pidas,
+el universo ya lo está escuchando en silencio.</p>
          
           <p> No sé si estas palabras logren rozar ni siquiera la inmensidad de lo que siento cada vez que hablo contigo , pero necesito intentarlo. En el cielo existen millones de estrellas, pero ninguna brilla como tú lo haces cuando sonríes. Y aunque la distancia que separa nuestras almas pueda parecer infinita, mi corazón late  con fuerza cada vez que pienso en ti.</p>
 
-          <h4>He escrito estos versos con el deseo de acercarme un poco más a ti</h4>
+          <h4>He escrito estos versos con el deseo de acercarme un poco más a ti ya que eres una super persona </h4>
 
-          <p>Dicen que el viento guarda secretos en su andar,
-            y que a veces lleva susurros al azar.
-            Hoy lo envío a ti, con la esperanza escondida,
-            de que toque tu alma y despierte tu vida.</p>
+          <p> Hoy la vida se viste de colores suaves para celebrar tu existencia, amiga mía. No hay regalo más bello que tu manera de iluminar los días con tu risa, ni melodía más dulce que tu voz cuando hablas con el alma. Eres ese tipo de persona que deja huellas sin hacer ruido, que abraza sin tocar, y que transforma el mundo con la simple magia de su presencia.</p>
             
-            <p>Tu mirada es un faro en la oscura marea,
-            un refugio sereno donde mi mente pasea.
-            No hay flor en el campo que compita en belleza,
-            ni canción que iguale tu risa en pureza.</p>
+            <p>Deseo que este nuevo año te encuentre rodeada de amor, paz y sueños que florezcan sin miedo. Que la vida te devuelva en sonrisas todo lo que has dado con el corazón, y que nunca te falte un motivo para seguir creyendo en la belleza de existir. Porque mereces un universo lleno de cosas buenas, y cada amanecer recordándote que tu luz es única e irremplazable. 🌙💫</p>
             
-           <p> Quisiera ser el motivo de tus madrugadas,
-            el café que te despierta, tus risas calladas.
-            Ser el poema que nunca olvides, el abrazo sincero,
-            el lugar al que vuelvas cuando busques lo eterno.</p>
+           <p> Que este nuevo año te regale lo que mereces: caminos claros, sueños que florezcan sin prisa, y personas que sepan ver en ti lo que realmente eres: una constelación de belleza, fuerza y amor. Que la vida te abrace fuerte y te susurre al oído que todo lo bueno está apenas comenzando.</p>
             
-           <p> No pretendo ser perfecto, pero sí alguien que quiere merecer la oportunidad de conocerte más, de aprender quién eres en lo más profundo, y de acompañarte en el camino que escojas recorrer.</p>
+           <p> Feliz cumpleaños, alma bella.
+Que tu historia siga escrita en versos de luz y sueños cumplidos.</p>
             
             <p>Con toda la sinceridad de mi corazón</p>
           <p>ATT:   JHON JADER P ...</p>
       
-          <div class="volver">❤️ </div>
+          <div class="volver">💙 </div>
         </div>
       </div>
     </div>
@@ -329,7 +365,7 @@
       for(let i = 0; i < cantidad; i++) {
         const decoracion = document.createElement('div');
         decoracion.className = 'decoracion';
-        decoracion.innerHTML = i % 2 === 0 ? '🌹' : '❤️';
+        decoracion.innerHTML = i % 2 === 0 ? '💙' : '💙';
         decoracion.style.left = `${Math.random() * 100}%`;
         decoracion.style.top = `${Math.random() * 100}%`;
         decoracion.style.animationDelay = `${Math.random() * 2}s`;
